@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <!-- <style>
+    ul {
+ list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: gray;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0; 
+}
+
+li {
+  /* float: left; */
+}
+  </style> -->
+</head>
+<body>
+
+    
+
+  <!-- <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Navbar scroll</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Link
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Link</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav> -->
+  <div class="container  ">
+    
+    <nav class="navbar navbar-expand-lg navbar-light position-sticky top-0 ">
+      <div class="container-fluid ">
+        <span>  
+          <a class="navbar-brand" href="#">
+            <img class="profile-pic " src="https://www.okler.net/previews/porto/10.1.0/img/demos/medical/logo-medical.png" alt="">
+          </a></span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse bluecolorhere justify-content-lg-center align-items-lg-center  justify-content-start align-content-start d-flex w-100 " id="navbarNav" >
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="active p-2" aria-current="page" href="#">HOME</a>
+              
+            </li>
+            
+            <li class="nav-item">
+              <a class="p-2" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item ">
+                <div class="dropdown width-drop ">
+                  <button
+                    class="btn dropdown-toggle button-drop-top " 
+                    type="button"
+                    id="dropdownMenu Button"
+                    data-mdb-toggle="dropdown"
+                    aria-expanded="false"
+                  ><a class="p-2" href="#" >DEPARTMENTS</a>
+                  </button>
+                  <ul class="dropdown-menu dp" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="#">Cardiology</a></li>
+                    <!-- <li><hr class="dropdown-divider"></li> -->
+                    <li><a class="dropdown-item" href="#">Gastroenterlogy</a></li>
+                    <!-- <li><hr class="dropdown-divider"></li> -->
+                    <li><a class="dropdown-item" href="#">Pulmonology</a></li>
+                    <!-- <li><hr class="dropdown-divider"></li> -->
+                    <li><a class="dropdown-item" href="#">Dental</a></li>
+                    <!-- <li><hr class="dropdown-divider"></li> -->
+                    <li><a class="dropdown-item" href="#">Gynecology</a></li>
+                    <!-- <li><hr class="dropdown-divider"></li> -->
+                    <li><a class="dropdown-item" href="#">Hepatology</a></li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="active p-2" aria-current="page" href="#">DOCTORS</a>
+            </li>
+            <li class="nav-item ">
+              <a class="active p-2" aria-current="page" href="#">RESOURCES</a>
+            </li>
+            <li class="nav-item ">
+              <a class="active p-2" aria-current="page" href="#">INSURANCE</a>
+            </li>
+            <li class="nav-item ">
+              <a class="active p-2" aria-current="page" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+   </div>
+  <div class="header">
+    <h2>Scroll Down</h2>
+    <p>Scroll down to see the sticky effect.</p>
+  </div>
+  
+  <ul>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#news">News</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  
+  <h3>Sticky Navigation Bar Example</h3>
+  <p>The navbar will <strong>stick</strong> to the top when you reach its scroll position.</p>
+  <p><strong>Note:</strong> Internet Explorer do not support sticky positioning and Safari requires a -webkit- prefix.</p>
+  <p>Some text to enable scrolling. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae volup Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quasi facilis itaque atque voluptates? Dignissimos et delectus minima doloremque facilis neque inventore numquam pariatur, illum harum deleniti, ipsum placeat dolores amet atque nulla, vel at quis vero a quos? Suscipit rerum reprehenderit laboriosam temporibus ea! Nihil voluptates ad, quo illo dolorum eligendi ea quod. Temporibus, minima nisi ratione eius odio qui, sit in dolore pariatur tempore hic esse quod culpa, atque omnis blanditiis nemo! Iusto dicta quae distinctio. Recusandae nihil nam dicta consectetur perferendis porro eos repellat id nostrum, voluptatibus dolor repellendus illo animi esse, cupiditate laborum. Voluptates recusandae consequatur odit amet, nisi at quas numquam! Voluptatibus, eius, quo dolor et quos totam, sit similique ipsum accusamus quidem recusandae eos doloremque ad. Unde libero omnis labore doloremque at repellat ratione quidem tempore maxime deleniti officia porro voluptate inventore excepturi neque quis vel iure, exercitationem, corporis voluptatibus adipisci possimus sequi voluptates nisi? Nemo, nam impedit, maxime nisi praesentium, nobis aliquid dolores neque cum sint provident aut. Dolore explicabo ut ipsam similique consequatur nulla vel, debitis quasi inventore at quia libero? Praesentium a minus dolore nostrum autem cumque fuga tenetur placeat vel enim inventore consectetur, provident libero. Fugit facere excepturi iure quae, nihil odit ipsam! Quas impedit laborum necessitatibus. Laboriosam sunt possimus velit cum tempore, officiis modi temporibus sit amet cumque sapiente quos voluptatibus mollitia ut quisquam harum aliquam illo iusto suscipit reprehenderit nulla? Temporibus modi at necessitatibus alias porro, esse sunt delectus cupiditate voluptatum repudiandae illo autem adipisci eum numquam odit a laboriosam fuga, voluptate unde sint, voluptates error fugiat facilis. Temporibus aperiam ullam, dolorum voluptatibus adipisci ipsam minus cumque nisi tempora explicabo hic cum, culpa mollitia eos neque veniam aspernatur reiciendis ipsum nobis, natus sequi. Est ab, minima similique eaque, incidunt tempore repellat nobis odit ipsam ipsa temporibus esse quibusdam! Numquam perspiciatis dolores, voluptatibus quaerat magnam deleniti labore eaque qui quam ea molestiae. Explicabo libero ipsum illum quae similique facilis natus id laboriosam accusantium adipisci ullam ab veniam excepturi, praesentium debitis sint. Repudiandae obcaecati et odit animi? Porro error id aut. Pariatur ducimus delectus excepturi nemo sed sapiente beatae provident repudiandae iste labore culpa facilis recusandae impedit id asperiores ipsum nihil, sequi veritatis exercitationem quidem autem quod. Eius cum quasi vitae dolore, molestias vel ducimus maiores incidunt temporibus ullam corrupti consequuntur ab ut eveniet esse adipisci maxime doloribus libero mollitia tempora, quis debitis nemo explicabo. Rem quo quia voluptates repellendus molestias deleniti quidem, amet magnam reiciendis quisquam ut neque qui excepturi dignissimos veritatis tempore corrupti tenetur velit inventore architecto accusamus autem animi voluptatem expedita. Quisquam amet dolor porro atque doloribus mollitia in iure eius eligendi molestias alias eveniet obcaecati odit minus illo esse ea et consequatur ipsam veniam, voluptate ipsum deleniti? Doloribus ea fuga accusantium nobis, ex nostrum magni totam rem nihil explicabo autem id eveniet, cupiditate expedita accusamus consequuntur iste dolores doloremque incidunt eius! Dolor perferendis temporibus iusto reprehenderit nam tenetur dolorum ipsam explicabo cum inventore maiores dignissimos itaque minus iure cumque voluptatem eveniet iste dicta necessitatibus libero quae, deserunt ex. Repudiandae, odio impedit consectetur fuga quas dicta sint quo, alias dolorem id totam provident! Distinctio doloribus nesciunt vel eaque dolore ad, officiis aperiam repellat sit aut esse laboriosam magnam doloremque explicabo natus, quia unde debitis, reprehenderit quibusdam! A illo odit ex. In quisquam porro atque? Recusandae eveniet provident repellat aliquam eaque sapiente vel expedita natus officia in iure voluptatibus deserunt voluptas voluptate nobis, maxime corrupti sunt molestias corporis nemo reprehenderit est libero exercitationem modi. Fugiat, esse adipisci. Blanditiis veniam sint obcaecati quidem temporibus voluptate molestiae odit, quibusdam, minima corporis laborum! Qui nostrum pariatur doloribus architecto perferendis placeat quidem impedit sequi laboriosam minus eius quisquam reprehenderit quibusdam libero explicabo provident molestias aspernatur amet, aut similique repellendus molestiae obcaecati facilis? Dolore corporis saepe hic dolorem, ut laudantium non in alias quam, quasi magni fugit voluptates est eveniet? Animi nihil possimus quasi illum aspernatur cumque, quod non quisquam harum quidem qui fuga earum eaque ratione consequuntur rem minus debitis ducimus quos? Minima vitae quas ratione blanditiis, eos itaque, alias vel ex vero suscipit voluptatum? Animi at quod quo fugiat dolorum nulla nisi eveniet quisquam voluptatibus odit doloremque commodi, alias qui, iusto voluptates veniam culpa sequi dolore magni in. Alias modi illo temporibus dolore iusto earum, animi, aspernatur voluptates similique dignissimos maxime ipsam optio quia. Quos unde neque fugiat ad possimus? Quam perferendis mollitia quas voluptates sequi a dicta ex dolore sit ab. Dolorum facilis minus eos eum accusamus corporis iure iste! Maxime consectetur asperiores nesciunt amet iste magnam ipsum vel aliquid cum aliquam accusamus hic unde nobis vitae fuga ipsam, assumenda velit? Eos provident earum eligendi! Error deleniti ab praesentium blanditiis, quisquam vero distinctio at iste voluptas, provident a. Commodi quod amet esse tempora sit? Non omnis, perspiciatis exercitationem temporibus corrupti dolores possimus libero architecto molestias odit. Veniam ratione, mollitia tempora sed laboriosam saepe ex ipsum. Dolorum et blanditiis iste laudantium, enim officiis quas tempore velit nihil quia minus quos incidunt inventore delectus sed illum sapiente aliquid asperiores? Ea officiis omnis quia, doloribus optio hic id obcaecati. Facere harum tempore fugit ducimus sint, asperiores, sequi molestiae culpa fugiat delectus officiis atque adipisci repudiandae aperiam facilis molestias dignissimos dicta. Modi magni fugiat tempore dignissimos blanditiis vel eligendi enim nihil nemo. Ad neque, perferendis suscipit reprehenderit sit praesentium magnam similique. Aliquam rem numquam consequatur. Quae, obcaecati aperiam, molestias sint quis odit provident ipsam ex sed suscipit rerum, quod dolores reprehenderit laborum dolor debitis consequuntur esse tenetur harum. Aut voluptatem dolorum, enim incidunt cum, recusandae debitis illum dignissimos reprehenderit perferendis aperiam eos perspiciatis in totam eligendi ea vero. Minus ab doloremque nisi rerum animi debitis veniam iste facere consectetur non laudantium, praesentium officiis, error totam sit molestiae tenetur itaque at alias libero dicta molestias unde modi! Tenetur libero ut nesciunt officia eum molestias veniam itaque quidem cum exercitationem? Ex, sed porro? Vitae excepturi iure molestias nesciunt porro, explicabo blanditiis, eos rem mollitia, earum modi voluptates aspernatur exercitationem minima iusto accusantium dolorum voluptas voluptatum nihil dolore cum? Libero, hic facere aut unde labore reprehenderit ratione.
+    tatibus.</p>
+  <p>Some text to enable scrolling. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  <p>Some text to enable scrolling. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  <p>Some text to enable scrolling. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  <p>Some text to enable scrolling. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  <p>Some text to enable scrolling. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  <p>Some text to enable scrolling. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
